@@ -53,3 +53,8 @@ password:coffee!
 Code contains two step validation: standard HTML5 validation and server side validation. The input box value will first go through a client side validation (HTML5 validation) which checks for standards "@" symbol (Example:qli31@g will pass validation). To improve upon this, there is a server side validation in place by using PHP filer_var function.
 
 There is also a valdition to check if user already exists (already subscribed to the mailing list). For invalid email address , the page requests the user to try again. The invalid email address will not be saved to the database. For the case where user already exists in the database, page will notify the user that they have already subscribed.  
+
+Note: The second part maybe not be working on the class server, but can surely work by putting it in your localhost. 
+
+## Note
+Some of the styles.css are observed from Professor. Kostin's demo.
