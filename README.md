@@ -38,3 +38,7 @@ Both of the fonts I choose are fonts that look like child hand writting. It is n
 ### Explain the structure behind your CSS Architecture
 There are three main structure: BASE, MODULE, LAYOUT. Base contain the main website elements like body, header. Layout contain the elements for the global elements. Module are the css that used several times on some pages. There are more specfic structures included such as zpattern and fpatter. 
 
+## Coder 
+
+### List the database credentials you used (database name, username, password)
+### Describe any worthwhile or interesting technical aspects of your website and/or any technical difficulties that didn’t work out (you may receive credit for things attempted but not achieved)
