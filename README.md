@@ -22,12 +22,16 @@ The F pattern is used on the second page. It helps the readers to focus on the i
 Contrast:
 Difference in font size show different importance of information 
 All the words have high contrast with the background either by having a high contrast background color or using shadow to make the words stand out from the background. 
+When you hover on the logo, the logo will pop out and stand out from the backgound. Also it has green color shadow. 
+
 Repetition:
 All the rabbits related info have green color as rabbits like to eat grass and vegetable. 
 Some format and font for all the sections 
 All the pages have identical logo. 
+
 Alignment:
 All the pictures and paragraphs are properly aligned. 
+
 Proximity:
 Related information are closly placed to its header and pictures. 
 
