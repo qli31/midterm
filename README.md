@@ -50,4 +50,6 @@ username:urcscon3_qli31
 password:coffee!
 
 ### Describe any worthwhile or interesting technical aspects of your website and/or any technical difficulties that didn’t work out (you may receive credit for things attempted but not achieved)
-I have also added a server side validation using PHP. Including the standard HTML5 validation. The input box value will first go through a client side validation (HTML5 validation) which turns to be not so effective. (Example:qli31@g will pass validation) To improve this, there is a server side validation in place by using PHP filer_var function. For the invalid email address input, the website will request the user to try again. The invalid email address will not be saved to the database. 
+Code contains two step validation: standard HTML5 validation and server side validation. The input box value will first go through a client side validation (HTML5 validation) which checks for standards "@" symbol (Example:qli31@g will pass validation). To improve upon this, there is a server side validation in place by using PHP filer_var function.
+
+There is also a valdition to check if user already exists (already subscribed to the mailing list). For invalid email address , the page requests the user to try again. The invalid email address will not be saved to the database. For the case where user already exists in the database, page will notify the user that they have already subscribed.  
